@@ -1,0 +1,9 @@
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Shared\bin\Debug\netstandard2.0\GameApp.Shared.deps.json
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Shared\bin\Debug\netstandard2.0\GameApp.Shared.dll
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Shared\bin\Debug\netstandard2.0\GameApp.Shared.pdb
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Shared\obj\Debug\netstandard2.0\GameApp.Shared.csprojAssemblyReference.cache
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Shared\obj\Debug\netstandard2.0\GameApp.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Shared\obj\Debug\netstandard2.0\GameApp.Shared.AssemblyInfoInputs.cache
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Shared\obj\Debug\netstandard2.0\GameApp.Shared.AssemblyInfo.cs
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Shared\obj\Debug\netstandard2.0\GameApp.Shared.dll
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Shared\obj\Debug\netstandard2.0\GameApp.Shared.pdb

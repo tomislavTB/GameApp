@@ -1,0 +1,12 @@
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\GameApp\obj\Debug\netcoreapp2.2\GameApp.csprojAssemblyReference.cache
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\GameApp\obj\Debug\netcoreapp2.2\GameApp.csproj.CoreCompileInputs.cache
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\GameApp\obj\Debug\netcoreapp2.2\GameApp.RazorAssemblyInfo.cache
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\GameApp\obj\Debug\netcoreapp2.2\GameApp.RazorAssemblyInfo.cs
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\GameApp\obj\Debug\netcoreapp2.2\GameApp.AssemblyInfoInputs.cache
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\GameApp\obj\Debug\netcoreapp2.2\GameApp.AssemblyInfo.cs
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\obj\Debug\netcoreapp2.2\GameApp.csprojAssemblyReference.cache
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\obj\Debug\netcoreapp2.2\GameApp.csproj.CoreCompileInputs.cache
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\obj\Debug\netcoreapp2.2\GameApp.RazorAssemblyInfo.cache
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\obj\Debug\netcoreapp2.2\GameApp.RazorAssemblyInfo.cs
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\obj\Debug\netcoreapp2.2\GameApp.AssemblyInfoInputs.cache
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\obj\Debug\netcoreapp2.2\GameApp.AssemblyInfo.cs
