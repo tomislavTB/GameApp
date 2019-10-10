@@ -8,5 +8,14 @@ namespace GameApp.Api.Extensions.ModelBuilder
         {
             User(modelBuilder);
         }
+
+        private static void User(Microsoft.EntityFrameworkCore.ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Player>()
+                 .HasIndex(p => new { p.FirstName, p.LastName })
+                .IsUnique(true);
+
+
+        }
     }
 }

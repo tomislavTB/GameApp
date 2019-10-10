@@ -36,11 +36,11 @@ namespace GameApp.Api.Controllers
 
         // GET
         [HttpGet("{id}")]
-        public async Task<ActionResult<GoodGame>> GetountryItem(int id)
+        public async Task<ActionResult<GoodGame>> GetGoodGameItem(int id)
         {
-            var CountryItem = await GoodGames.FindAsync(id);
+            var GoodGameItem = await GoodGames.FindAsync(id);
 
-            if (CountryItem == null)
+            if (GoodGameItem == null)
             {
                 return NotFound();
             }

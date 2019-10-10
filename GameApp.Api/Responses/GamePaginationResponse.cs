@@ -13,7 +13,7 @@ namespace GameApp.Api.Responses
 
         public string GameName { get; set; }
 
-        public string Extension { get; set; }
+        public string Expansion { get; set; }
 
     }
 }

@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using StudentiProject.Models;
+using GameApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using GameApp.Services.Contracts;
+using GameApp.Api.Services.Contracts;
 using GameApp.Api.Requests;
 using GameApp.Api.Responses;
-using GameApp.Api.Shared.Pagination;
+using GameApp.Shared.Pagination;
+using GameApp.Api.Controllers;
 
 namespace StudentiProject.Controllers
 {

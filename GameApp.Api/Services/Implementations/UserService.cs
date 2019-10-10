@@ -2,7 +2,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using GameApp.Api.DB;
-using GameApp.Api.Model.Users;
+using GameApp.Model.Users;
 using GameApp.Api.Services.Contracts;
 
 namespace GameApp.Api.Services.Implementations

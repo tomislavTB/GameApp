@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using StudentiProject.Models;
+using GameApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using GameApp.Shared.Pagination;
@@ -17,7 +17,7 @@ namespace GameApp.Api.Controllers
 
     public class GameController : AppAuthorizedController
     {
-        private readonly IGameService Cities;
+        private readonly IGameService Games;
 
         public GameController(IGameService games)
         {
@@ -25,9 +25,9 @@ namespace GameApp.Api.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetPage([FromQuery] CityPaginationRequest request = null)
+        public async Task<IActionResult> GetPage([FromQuery] GamePaginationRequest request = null)
         {
-            PagedResult<CityResponse> pagedResult = await Games.GetPageAsync(request);
+            PagedResult<GameResponse> pagedResult = await Games.GetPageAsync(request);
             return ApiOk(pagedResult);
         }
 
@@ -37,7 +37,7 @@ namespace GameApp.Api.Controllers
         [HttpGet("{id}")]
         public async Task<ActionResult<Game>> GetGameItem(int id)
         {
-            var GameItem = await Cities.FindAsync(id);
+            var GameItem = await Games.FindAsync(id);
 
             if (GameItem == null)
             {

@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using GameApp.Models;
 
-namespace StudentiProject.Extensions
+namespace GameApp.Api.Extensions
 {
     public static class Seeds
     {
@@ -19,11 +19,11 @@ namespace StudentiProject.Extensions
         public static void Games(this Microsoft.EntityFrameworkCore.ModelBuilder modelBuilder)
 
         {
-            modelBuilder.Entity<Game>().HasData(new Game { Id = 1, GameName = "Rizik", Extensions = "DA" });
-            modelBuilder.Entity<Game>().HasData(new Game { Id = 2, GameName = "Monopoly", Extensions = "NE" });
-            modelBuilder.Entity<Game>().HasData(new Game { Id = 3, GameName = "Catan", Extensions = "DA" });
-            modelBuilder.Entity<Game>().HasData(new Game { Id = 4, GameName = "Azul", Extensions = "DA" });
-            modelBuilder.Entity<Game>().HasData(new Game { Id = 5, GameName = "Bela", Extensions = "NE" });
+            modelBuilder.Entity<Game>().HasData(new Game { Id = 1, GameName = "Rizik", Expansion = "DA" });
+            modelBuilder.Entity<Game>().HasData(new Game { Id = 2, GameName = "Monopoly", Expansion = "NE" });
+            modelBuilder.Entity<Game>().HasData(new Game { Id = 3, GameName = "Catan", Expansion = "DA" });
+            modelBuilder.Entity<Game>().HasData(new Game { Id = 4, GameName = "Azul", Expansion = "DA" });
+            modelBuilder.Entity<Game>().HasData(new Game { Id = 5, GameName = "Bela", Expansion = "NE" });
 
         }
 

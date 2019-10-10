@@ -7,7 +7,9 @@ using System.Linq;
 using GameApp.Shared.Extensions;
 using GameApp.Api.Services.Contracts;
 using Microsoft.EntityFrameworkCore;
-using GameApp.Services;
+using GameApp.Api.Services;
+using GameApp.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace GameApp.Api.Services
 {
@@ -37,7 +39,7 @@ namespace GameApp.Api.Services
             return pagedResult;
         }
 
-        public async Task<GoodGameResponse> GetByIdAsync(long id)
+        public async Task<GoodGameResponse> GetByIdAsync(int id)
         {
             return await _context
                 .GoodGames
@@ -50,15 +52,33 @@ namespace GameApp.Api.Services
                 .FirstAsync();
         }
 
-        public async Task<int> DeleteByIdAsync(long id)
+        public async Task<int> DeleteByIdAsync(int id)
         {
-            var goodGame = await _context
+            var GoodGame = await _context
                 .GoodGames
                 .FindAsync(id);
 
-            _context.GoodGame.Remove(goodGame);
+            _context.GoodGames.Remove(GoodGame);
             return await _context.SaveChangesAsync();
         }
 
+        public async Task<GoodGame> FindAsync(int id)
+        {
+            return await _context.GoodGames.FindAsync(id);
+        }
+
+        public async Task<int> PutGoodGame(GoodGame item)
+        {
+            _context.Entry(item).State = EntityState.Modified;
+            return await _context.SaveChangesAsync();
+        }
+
+
+        public async Task<GoodGame> PostGoodGame(GoodGame item)
+        {
+            _context.GoodGames.Add(item);
+            await _context.SaveChangesAsync();
+            return item;
+        }
     }
 }

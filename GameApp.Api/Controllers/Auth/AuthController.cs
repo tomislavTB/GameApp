@@ -14,6 +14,7 @@ using GameApp.Model.Users;
 using GameApp.Api.Requests.Auth;
 using GameApp.Api.Responses;
 using GameApp.Api.Services.Contracts;
+using GameApp.Api.Controllers;
 
 namespace StudentiProject.Controllers.Auth
 {

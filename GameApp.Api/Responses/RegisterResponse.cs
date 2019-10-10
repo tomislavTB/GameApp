@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 
-namespace StudentiProject.Responses
+namespace GameApp.Api.Responses
 {
     public class RegisterResponse : AppResponse
     {

@@ -18,7 +18,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json;
 using GameApp.Api.DB;
-using GameApp.Api.Model.Users;
+using GameApp.Model.Users;
 using GameApp.Api.Services;
 using GameApp.Api.Services.Contracts;
 using GameApp.Api.Services.Implementations;

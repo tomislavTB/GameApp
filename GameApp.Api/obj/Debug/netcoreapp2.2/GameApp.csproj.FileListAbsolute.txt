@@ -10,3 +10,16 @@ C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\obj\Debug\netcoreapp2.2\Game
 C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\obj\Debug\netcoreapp2.2\GameApp.RazorAssemblyInfo.cs
 C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\obj\Debug\netcoreapp2.2\GameApp.AssemblyInfoInputs.cache
 C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\obj\Debug\netcoreapp2.2\GameApp.AssemblyInfo.cs
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\bin\Debug\netcoreapp2.2\GameApp.deps.json
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\bin\Debug\netcoreapp2.2\GameApp.runtimeconfig.json
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\bin\Debug\netcoreapp2.2\GameApp.runtimeconfig.dev.json
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\bin\Debug\netcoreapp2.2\GameApp.dll
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\bin\Debug\netcoreapp2.2\GameApp.pdb
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\bin\Debug\netcoreapp2.2\GameApp.Model.dll
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\bin\Debug\netcoreapp2.2\GameApp.Shared.dll
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\bin\Debug\netcoreapp2.2\GameApp.Shared.pdb
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\bin\Debug\netcoreapp2.2\GameApp.Model.pdb
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\obj\Debug\netcoreapp2.2\GameApp.RazorTargetAssemblyInfo.cache
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\obj\Debug\netcoreapp2.2\GameApp.csproj.CopyComplete
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\obj\Debug\netcoreapp2.2\GameApp.dll
+C:\Users\Tomislav\Desktop\BoardGame App\GameApp.Api\obj\Debug\netcoreapp2.2\GameApp.pdb

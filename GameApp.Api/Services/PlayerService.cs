@@ -8,12 +8,14 @@ using GameApp.Shared.Extensions;
 using GameApp.Api.Services.Contracts;
 using Microsoft.EntityFrameworkCore;
 using GameApp.Api.Services;
+using GameApp.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace GameApp.Api.Services
 {
     public class PlayerService : BaseService, IPlayerService
     {
-        private readonly GameApp.Context _context;
+        private readonly GameAppContext _context;
 
         public PlayerService(
             GameAppContext context
@@ -37,7 +39,7 @@ namespace GameApp.Api.Services
             return pagedResult;
         }
 
-        public async Task<PlayerResponse> GetByIdAsync(long id)
+        public async Task<PlayerResponse> GetByIdAsync(int id)
         {
             return await _context
                 .Players
@@ -50,15 +52,33 @@ namespace GameApp.Api.Services
                 .FirstAsync();
         }
 
-        public async Task<int> DeleteByIdAsync(long id)
+        public async Task<int> DeleteByIdAsync(int id)
         {
             var player = await _context
-                .Students
+                .Players
                 .FindAsync(id);
 
-            _context.Students.Remove(player);
+            _context.Players.Remove(player);
             return await _context.SaveChangesAsync();
         }
 
+        public async Task<Player> FindAsync(int id)
+        {
+            return await _context.Players.FindAsync(id);
+        }
+
+        public async Task<int> PutPlayer(Player item)
+        {
+            _context.Entry(item).State = EntityState.Modified;
+            return await _context.SaveChangesAsync();
+        }
+
+
+        public async Task<Player> PostPlayer(Player item)
+        {
+            _context.Players.Add(item);
+            await _context.SaveChangesAsync();
+            return item;
+        }
     }
 }

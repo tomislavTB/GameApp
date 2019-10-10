@@ -1,6 +1,6 @@
-using StudentiProject.Model.Users;
+using GameApp.Model.Users;
 
-namespace StudentiProject.Responses
+namespace GameApp.Api.Responses
 {
     public class LoginResponse : AppResponse
     {

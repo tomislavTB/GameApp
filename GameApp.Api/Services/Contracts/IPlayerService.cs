@@ -2,7 +2,7 @@ using System.Threading.Tasks;
 using GameApp.Models;
 using GameApp.Api.Requests;
 using GameApp.Api.Responses;
-using GameApp.Api.Shared.Pagination;
+using GameApp.Shared.Pagination;
 
 namespace GameApp.Api.Services.Contracts
 {

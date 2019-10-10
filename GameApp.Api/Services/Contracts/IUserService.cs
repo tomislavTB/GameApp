@@ -1,5 +1,5 @@
 using System.Threading.Tasks;
-using GameApp.Api.Model.Users;
+using GameApp.Model.Users;
 
 namespace GameApp.Api.Services.Contracts
 {

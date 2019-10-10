@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using GameApp.Api.Services.Contracts;
-using GameApp.Api.Model.Users;
+using GameApp.Model.Users;
 
 namespace GameApp.Api.Services.Implementations
 {

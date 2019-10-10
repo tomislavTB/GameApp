@@ -31,7 +31,7 @@ namespace GameApp.Api.Services
                 .Select(i => new GameResponse
                 {
                     Id = i.Id,
-                    GameName = i.Name
+                    GameName = i.GameName
 
                 })
                 .ToPagedResultAsync(request);
@@ -46,7 +46,7 @@ namespace GameApp.Api.Services
                 .Select(i => new GameResponse
                 {
                     Id = i.Id,
-                    GameName = i.Name
+                    GameName = i.GameName
 
                 })
                 .FirstAsync();
@@ -54,7 +54,7 @@ namespace GameApp.Api.Services
 
         public async Task<int> DeleteByIdAsync(int id)
         {
-            var Game = await _context
+            var game = await _context
                 .Games
                 .FindAsync(id);
 
@@ -74,7 +74,7 @@ namespace GameApp.Api.Services
         }
 
 
-        public async Task<Game> PostCity(Game item)
+        public async Task<Game> PostGame(Game item)
         {
             _context.Games.Add(item);
             await _context.SaveChangesAsync();
